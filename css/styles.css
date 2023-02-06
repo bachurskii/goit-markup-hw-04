@@ -154,7 +154,7 @@ span.studiolog {
   gap: 24px;
 }
 .section-text {
-  padding-top: 240px;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 .iteam {
@@ -178,7 +178,6 @@ span.studiolog {
 }
 .second-picture {
   margin-top: 72px;
-
   display: flex;
   flex-direction: row;
   gap: 24px;
@@ -218,6 +217,7 @@ span.studiolog {
 .indent {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .herofooter {
   background-color: var(--color2);
@@ -309,4 +309,16 @@ span.type {
 }
 .cards-teams {
   flex-basis: calc((100% - 2 * 24px) / 3);
+}
+.advantages-icon {
+  background-color: #f4f4fd;
+  width: 264px;
+  height: 122px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 102.14px;
+  padding-right: 102.14px;
+}
+.icons-links {
+  display: flex;
 }
