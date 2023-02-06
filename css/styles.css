@@ -319,6 +319,93 @@ span.type {
   padding-left: 102.14px;
   padding-right: 102.14px;
 }
-.icons-links {
+.list-icons {
   display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.icons {
+  width: 40px;
+  height: 40px;
+}
+.icon-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  fill: #f4f4fd;
+}
+.icon-links:hover {
+  background-color: #404bbf;
+}
+.client {
+  margin-top: 130px;
+}
+.client-icon {
+  padding-top: 72px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-left: 156px;
+  margin-right: 156px;
+}
+.list-client {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  margin-bottom: 120px;
+  width: 170px;
+  height: 90px;
+}
+.link-client {
+  fill: #8e8f99;
+  position: absolute;
+  padding-top: 16px;
+  padding-left: 64px;
+  padding-bottom: 16px;
+  padding-right: 32px;
+}
+
+.list-client:hover {
+  border-color: #404bbf;
+}
+.clients-links:hover {
+  background-color: #404bbf;
+}
+.hero-spant {
+  margin-left: 540px;
+  padding-left: 120px;
+}
+.list-footer {
+  padding-top: 24px;
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+.list-foot {
+  width: 40px;
+  height: 40px;
+}
+.link-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #ffffff1a;
+  fill: #f4f4fd;
+}
+.link-footer:hover {
+  background-color: #31d0aa;
+}
+.footer-tittle {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
