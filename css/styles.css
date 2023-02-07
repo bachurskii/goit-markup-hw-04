@@ -105,6 +105,9 @@ span.studiolog {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .title {
   font-size: 56px;
@@ -312,13 +315,13 @@ span.type {
 }
 .advantages-icon {
   background-color: #f4f4fd;
-  width: 264px;
-  height: 122px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 102.14px;
-  padding-right: 102.14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  height: 112px;
 }
+
 .list-icons {
   display: flex;
   gap: 24px;
@@ -341,47 +344,49 @@ span.type {
 .icon-links:hover {
   background-color: #404bbf;
 }
+.icon-links:focus {
+  background-color: #404bbf;
+}
 .client {
-  margin-top: 130px;
+  padding-top: 130px;
+  padding-bottom: 120px;
 }
 .client-icon {
   padding-top: 72px;
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin-left: 156px;
-  margin-right: 156px;
 }
 .list-client {
-  width: 170px;
-  height: 90px;
+  width: 168px;
+  height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  margin-bottom: 120px;
-  width: 170px;
-  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .link-client {
   fill: #8e8f99;
-  position: absolute;
-  padding-top: 16px;
-  padding-left: 64px;
-  padding-bottom: 16px;
-  padding-right: 32px;
 }
 
 .list-client:hover {
   border-color: #404bbf;
 }
+.list-client:focus {
+  border-color: #404bbf;
+}
 .clients-links:hover {
-  background-color: #404bbf;
+  fill: #404bbf;
+}
+.clients-links:focus {
+  fill: #404bbf;
 }
 .hero-spant {
-  margin-left: 540px;
-  padding-left: 120px;
+  padding-left: 540px;
 }
 .list-footer {
-  padding-top: 24px;
+  margin-top: 24px;
   display: flex;
   gap: 24px;
   list-style: none;
@@ -403,6 +408,10 @@ span.type {
 .link-footer:hover {
   background-color: #31d0aa;
 }
+.link-footer:focus {
+  background-color: #31d0aa;
+}
+
 .footer-tittle {
   font-size: 16px;
   color: #ffffff;
